@@ -1,7 +1,7 @@
-oauth2orize: oauth2 provider example
+Authentication server besed on OAuth2
 ===
 
-This example shows a provider which grants tokens in exchange for codes for
+This project shows a provider which grants tokens in exchange for codes for
 
   * The client application
   * A user of the client application
@@ -10,8 +10,8 @@ Install
 ===
 
 ```bash
-git clone https://github.com/gerges-beshay/oauth2orize-examples.git
-pushd oauth2orize-examples
+git clone https://github.com/inamvar/auth-server.git
+pushd auth-server
 npm install
 ```
 
@@ -35,9 +35,6 @@ Interacting with this provider directly doesn't showcase it's oauth2 functionali
   * Otherwise you will be redirected here and then to the permission dialog
 3. `/account` will allow you to see your user details
 
-In order to demo what this is actually accomplishing you'll need to run a consumer.
-
-See <https://github.com/coolaj86/example-oauth2orize-consumer>
 
 API
 ===
